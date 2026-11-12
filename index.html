@@ -33,7 +33,7 @@
 					<h4></h4>
 					<h4>[E. Paolini: Università di Pisa]</h4>
 					<h4></h4>
-					<h3>Trento &dash; Jan 28, 2023</h3>
+					<h3>Trento &dash; Jan 28, 2025</h3>
 					<!--div style="position: absolute; top: 100px; right: -100px; margin: 10px; padding-left: 16px; padding-right: 6px; background-color: white; border-radius: 10px;" >
 							<div data-href="https://paolini.github.io/2025-talk-Trento" id="qrcode"></div>
 					</div-->
@@ -407,6 +407,9 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+
+				// KaTeX bundled locally so the slides work offline
+				katex: { local: 'lib/katex' },
 				view: 'scroll',
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
@@ -444,7 +447,7 @@
 
 			Reveal.on('ready', (event) => {console.log("ready", event)});
 		</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="lib/qrcode.min.js"></script>
 		<script type="text/javascript">
 			var element = document.getElementById("qrcode");
 			var href = element.dataset.href || element.parentElement.href;

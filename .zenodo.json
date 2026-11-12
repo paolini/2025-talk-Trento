@@ -1,0 +1,38 @@
+{
+  "upload_type": "presentation",
+  "title": "Infinite isoperimetric partitions",
+  "description": "<p>Slides of the talk given on 28 January 2025 at the conference <em>Geometric Measure Theory in Trento</em> (Trento, Italy, 27-30 January 2025).</p><p>The slides are an HTML presentation built with <a href=\"https://revealjs.com/\">reveal.js</a>: unzip the archive and open <code>index.html</code> in a web browser. All dependencies are bundled, so no internet connection is needed.</p><p>Online version: <a href=\"https://paolini.github.io/2025-talk-Trento/\">https://paolini.github.io/2025-talk-Trento/</a></p>",
+  "creators": [
+    {
+      "name": "Paolini, Emanuele",
+      "affiliation": "Università di Pisa",
+      "orcid": "0000-0001-7021-7537"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "geometric measure theory",
+    "isoperimetric problem",
+    "isoperimetric partitions",
+    "minimal clusters",
+    "tilings",
+    "calculus of variations"
+  ],
+  "conference_title": "Geometric Measure Theory in Trento",
+  "conference_dates": "27-30 January 2025",
+  "conference_place": "Trento, Italy",
+  "conference_url": "https://cirm.fbk.eu/conferences/past-conferences/2025",
+  "related_identifiers": [
+    {
+      "identifier": "https://cirm.fbk.eu/conferences/past-conferences/2025",
+      "relation": "isPartOf",
+      "resource_type": "event"
+    },
+    {
+      "identifier": "https://paolini.github.io/2025-talk-Trento/",
+      "relation": "isIdenticalTo",
+      "resource_type": "presentation"
+    }
+  ]
+}
